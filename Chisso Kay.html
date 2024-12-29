@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Photography</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        header {
+            background-image: url('./How\ to\ Master\ the\ Art\ of\ the\ Moodboard\ -\ Dear\ Designer\ \(1\).png');
+            background-size: cover;
+            background-position: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        header a {
+            background: linear-gradient(45deg, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        header a:hover {
+            background-color: #444;
+        }
+        nav {
+            background: linear-gradient(45deg, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .about {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: linear-gradient(45deg, #F9F295, #E0AA3E, #FAF398, #B88A44);
+
+        }
+        .about h2 {
+            margin-bottom: 1rem;
+        }
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .contact-form {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            background: linear-gradient(45deg, #F9F295, #E0AA3E, #FAF398, #B88A44);
+            border-radius: 5px;
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #000000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: hsl(0, 0%, 33%);
+        }
+        footer {
+            background: linear-gradient(45deg, #F9F295, #E0AA3E, #FAF398, #B88A44);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="color:white">Gold Ink Photography
+    <p stytle="color:white">Capturing the moments that matter</p>
+    <a href="#contact">Book a Session</a></h1>
+</header>
+
+<nav>
+    <a style="color:white" href="#about">About</a>
+    <a style="color:white" href="#gallery">Gallery</a>
+    <a style="color:white" href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2 style="color:white">About Us</h2>
+    <p>an experienced and highly motivated professional team with a proven track record in customer  services and photography as well as advertisements. We are a highly skilled and experienced team with a strong work background. A well collaborated team, self starter, customer centred with great communication skills especially in English and Chichewa as well as good interaction with people of different values, cultures norms and believes. We are self comfident and we work under minimum supervision.</p>
+</section>
+
+<section id="gallery" class="gallery">
+    <img src="6M4A9567.jpg " alt="Photo 1">
+    <img src="6M4A9610.jpg" alt="Photo 2">
+    <img src="6M4A9652.jpg" alt="Photo 3">
+    <img src="6M4A9972.jpg" alt="Photo 4">
+    <img src="GINK0384.jpg" alt="Photo 5">
+    <img src="GINK0540.jpg" alt="Photo 6">
+    <img src="GINK8883.jpg" alt="Photo 7">
+    <img src="6M4A9605.jpg" alt="Photo 8">
+</section>
+
+<section id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<style>
+    a.whatsapp-link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: #25D366; /* WhatsApp green */
+        font-weight: bold;
+    }
+    a.whatsapp-link img {
+        margin-right: 8px;
+    }
+</style>
+<a href="https://wa.me/265886387073" target="_blank" class="whatsapp-link">
+    <img src="./rb_2147900929.png" alt="WhatsApp" style="width: 24px; height: 24px;">
+ Chat with us on WhatsApp
+</a>
+<style>
+    a.facebook-link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: #f0366e; /* instagram pink */
+        font-weight: bold;
+    }
+    a.instagram-link img {
+        margin-right: 8px;
+    }
+</style>
+<a href="https://wa.me/11234567890" target="_blank" class="facebook-link">
+    <img src="./Instagram.png" alt="instagram" style="width: 24px; height: 24px;">
+    Chat with us on instagram
+</a>
+
+<footer>
+    <p>&copy; 2025 Gold Ink Photography. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
